@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
-  * A program that prints the lowercase of every alphabet
-  * The program also prints the uppercase of the alphabets
-  * Return: Always 0
+  * main - a program that prints the uppercase and lowercase alphabets
+  * followed by a newline
+  * Return: Always return to 0
 */
-
 int main(void)
 {
-	char l;
+	int ch;
 
-	for (l = 'a'; l<= 'z'; l++)
-		putchar (l);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar (ch);
+
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar (ch);
 
 		putchar('\n');
 
 		return (0);
-
 }
