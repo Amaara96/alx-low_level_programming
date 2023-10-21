@@ -10,7 +10,7 @@ int main(void)
 	{
 		for (n = 0; n <= 10; n++)
 		{
-			printf("The numbers are: %d \n", n);
+			printf(" %d \n", n);
 		}
 	}
 
