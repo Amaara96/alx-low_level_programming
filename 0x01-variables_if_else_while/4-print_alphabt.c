@@ -1,11 +1,22 @@
 #include <stdio.h>
 /**
   * main - A program that prints all alphabet except for letters e and q
-  * Return: returns to 0 always
+  * Return: Always return to 0
 */
 
 int main(void)
 {
-	int ch;
+	char letter;
 
-	for (ch 
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	{
+
+	if (letter != 'e' && letter != 'q')
+		putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
