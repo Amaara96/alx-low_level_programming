@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * main - Writes a function that prints all alphabets
+  * print asphabets- Writes a function that prints all alphabets
   *
   * Description - The alphabets are all lowercase
   *
@@ -14,9 +14,12 @@ void print_alphabet(void)
 	char l = 'a';
 
 	while (l <= 'z')
-		_putchar(l);
+		{
+			_putchar(l);
 
-				l++;
+		}
+		
+		l++;
 
 	_putchar('\n');
 
