@@ -4,7 +4,7 @@
   *
   * Description - The alphabets are all lowercase
   *
-  * Return - does not return to 0
+  * Return - Always 0
   *
 */
 
@@ -14,7 +14,7 @@ void print_alphabet(void)
 	char l = 'a';
 
 	while (l <= 'z')
-		_putchar('l');
+		_putchar(l);
 
 				l++;
 
