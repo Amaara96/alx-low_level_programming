@@ -8,15 +8,15 @@
   *
 */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 
-	char letter = a;
+	char l = a;
 
-	while (letter <= z)
-		_putchar('letter');
+	while (l <= z)
+		_putchar('l');
 
-				letter++
+				l++
 
 	_putchar('\n');
 
