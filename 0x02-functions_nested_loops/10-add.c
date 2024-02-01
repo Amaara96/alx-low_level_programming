@@ -2,12 +2,14 @@
 
 /**
   * main - Adds two integers
-  * Description - The integers are a and b
+  * @a: the first integer
+  * @b: the second integer
+  * Return: Returns the addition of the two integers
   */
 
 int add(int a, int b)
 {
-	
+
 	int n;
 
 	n = a + b;
