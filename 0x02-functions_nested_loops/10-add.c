@@ -5,7 +5,7 @@
   * Description - The integers are a and b
   */
 
-int add(int, int);
+int add(int, int)
 {
 	return(int + int);
 }
