@@ -5,11 +5,11 @@
   * Description - The integers are a and b
   */
 
-int add(int, int)
+int add(int x, int y)
 {
 	
 	int n;
-	n = int + int;
+	n = int x + int y;
 
 	return (n);
 }
