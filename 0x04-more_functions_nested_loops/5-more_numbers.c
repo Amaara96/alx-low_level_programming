@@ -6,6 +6,7 @@
   */
 
 void more_numbers(void)
+
 {
 
 	int a, b;
@@ -14,7 +15,7 @@ void more_numbers(void)
 	{
 		for (b = 0; b <= 14; b++)
 		{
-			putchar(b / 10 + '0');
+				putchar(b / 10 + '0');
 			putchar(b % 10 + '0');
 		}
 
