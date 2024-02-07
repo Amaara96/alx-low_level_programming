@@ -1,8 +1,10 @@
 #include "main.h"
-
 /**
- * reset_to_98 - updates the value *n points to.
- * @n: the number to modify.
+ * reset_to_98 - A function that points to 98
+ *
+ * @n: This is the variable
+ *
+ * Return: returns to void
  */
 
 void reset_to_98(int *n)
