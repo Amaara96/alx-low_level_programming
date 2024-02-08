@@ -10,11 +10,11 @@
 int _strlen(char *s)
 {
 	int i;
-	int length = 0;
+	int line = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		length++;
+		line++;
 	}
-	return (length);
+	return (line);
 }
