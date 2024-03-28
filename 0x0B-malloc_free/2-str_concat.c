@@ -8,7 +8,7 @@
  * @s1: The first string of the function
  *
  * @s2: The second string of the function
- * 
+ *
  * lenght1: The lenght of the first string
  *
  * lenght2: The lenght of the second string
