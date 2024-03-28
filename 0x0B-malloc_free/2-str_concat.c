@@ -5,8 +5,13 @@
 /**
  * str_concat - A function that concatenates two strings
  *
- * @s1: string 1
- * @s2: string 2
+ * @s1: The first string of the function
+ *
+ * @s2: The second string of the function
+ * 
+ * lenght1: The lenght of the first string
+ *
+ * lenght2: The lenght of the second string
  *
  * Return: returns output
 */
