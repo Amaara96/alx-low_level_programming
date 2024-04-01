@@ -10,8 +10,11 @@ int main(void)
 		float score;
 	};
 
-	struct student st1 = {20, "John", 12.5};
-	struct student st2 = {45, "Amarachi", 49.5};
+	struct student st1;
+	struct student st2;
+	st1.name = "John";
+	st1.age = 12;
+	st1.score = 10.5;
 
 	printf("%s\n", st1.name);
 }
