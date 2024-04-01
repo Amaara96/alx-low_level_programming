@@ -3,15 +3,15 @@
 int main(void)
 {
 
-	struct student
+	typedef struct student
 	{
 		int age;
 		char* name;
 		float score;
-	};
+	}student;
 
-	struct student st1;
-	struct student st2;
+	student st1;
+	student st2;
 	st1.name = "John";
 	st1.age = 12;
 	st1.score = 10.5;
