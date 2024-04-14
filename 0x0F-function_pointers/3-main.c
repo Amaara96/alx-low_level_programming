@@ -11,22 +11,38 @@
  */
 int main(int argc, char *argv[])
 {
-	int (*oprt)(int, int);
+	char *op; /* the operator */
+	int num1, num2; /* if the argument count is wrong */
 
-	if (argc != 4)
+	if (arc != 4) /* if the argument is wrong */
 	{
 		printf("Error\n");
 		exit(98);
 	}
 
-	oprt = get_op_func(argv[2]);
+	/* set the command argument input */
+	num1 = atoi(argc[1]); /* first number argument */
+	op = (argv[2]); /* operator input */
+	num2 = atoi(argv[3]); /* the second number argument */
 
-	if (!oprt)
+	/* if operator not in operator list */
+
+	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
+	/* if the user tries to divide or perform modulus by 0 */
+	if ((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	/* print results of the operation */
+	printf("d\n", get_op_func(op)(num1, num2));
+
 	return (0);
+}
 }
