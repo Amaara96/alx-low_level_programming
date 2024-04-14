@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * op_add - ...
- * @a: ...
- * @b: ...
+ * op_add - calculates the sum of two numbers
+ * @a: The first number
+ * @b: The second number
  *
- * Return: ...
+ * Return: returns the sum of two numbers
  */
 int op_add(int a, int b)
 {
@@ -15,11 +15,11 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - ...
- * @a: ...
- * @b: ...
+ * op_sub - Calculates the difference of two numbers
+ * @a: The first number
+ * @b: The second number
  *
- * Return: ...
+ * Return: Returns the subtracted value
  */
 int op_sub(int a, int b)
 {
@@ -27,11 +27,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - ...
- * @a: ...
- * @b: ...
+ * op_mul - multiplies two numbers
+ * @a: First number to be multiplied
+ * @b: Second number to be multiplied
  *
- *  Return: ...
+ *  Return: Returns the multiplied number
  */
 int op_mul(int a, int b)
 {
@@ -39,11 +39,11 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - ...
- * @a: ...
- * @b: ...
+ * op_div - divides two numbers
+ * @a: the dividend
+ * @b: the divisor
  *
- *  Return: ...
+ *  Return: returns the quotient
  */
 int op_div(int a, int b)
 {
@@ -57,11 +57,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - ...
- * @a: ...
- * @b: ...
+ * op_mod - prints the remainder of the division
+ * @a: The dividend
+ * @b: The divisor
  *
- * Return: ...
+ * Return: returns the remainder
  */
 int op_mod(int a, int b)
 {
