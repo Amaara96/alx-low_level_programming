@@ -14,14 +14,14 @@ int main(int argc, char *argv[])
 	char *op; /* the operator */
 	int num1, num2; /* if the argument count is wrong */
 
-	if (arc != 4) /* if the argument is wrong */
+	if (argc != 4) /* if the argument is wrong */
 	{
 		printf("Error\n");
 		exit(98);
 	}
 
 	/* set the command argument input */
-	num1 = atoi(argc[1]); /* first number argument */
+	num1 = atoi(argv[1]); /* first number argument */
 	op = (argv[2]); /* operator input */
 	num2 = atoi(argv[3]); /* the second number argument */
 
@@ -41,8 +41,7 @@ int main(int argc, char *argv[])
 	}
 
 	/* print results of the operation */
-	printf("d\n", get_op_func(op)(num1, num2));
+	printf("%d\n", get_op_func(op)(num1, num2));
 
 	return (0);
-}
 }
