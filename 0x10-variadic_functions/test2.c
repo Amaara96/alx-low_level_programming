@@ -17,7 +17,8 @@ int sum(int ar, ...)
 	for (i = 0; i < ar; i++)
 	{
 		sum = sum + va_arg(arg, int);  /* the looping takes place here by fetching the elements one by one */
+		 printf("%d\n", va_arg(arg, int));
 	}
-	printf("%d\n", sum);
+	//printf("%d\n", va_arg(arg, int));
 	va_end(arg); /*ends the operation*/
 }
