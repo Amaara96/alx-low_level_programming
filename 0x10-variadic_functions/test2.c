@@ -5,7 +5,7 @@ int sum(int ar, ...);
 
 int main(void)
 {
-	sum(4, 1, 2, 3,5);
+	sum(7, 1, 2, 3,5, 8, 9, 6);
 }
 int sum(int ar, ...)
 {
