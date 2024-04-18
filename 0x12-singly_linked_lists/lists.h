@@ -18,4 +18,6 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
+int _putchar(char c);
+
 #endif
